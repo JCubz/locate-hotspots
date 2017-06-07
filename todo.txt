@@ -1,0 +1,19 @@
+p1: 
+Implement Plan B
+	Save a global slope value
+	Give the rectangle a length value
+		Replace length calculations with the stored value
+	Give the rectangles an array of values up until you reach the max distance
+		Every 38 add 28 to starting point
+	Calculate the point by seeing which array value its closest too
+		Implement a binary search for it
+
+Email Eric
+	Rectangles are off because a line from top to bottom is ~6997 where as (38*93*2)+28 = 7096 and a 100 pixels is an entire  
+
+
+p2:
+Don't use floats and Use something more accurate
+
+refactor classes into their own folder
+Add more type checks and throw errors
